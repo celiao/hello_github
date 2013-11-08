@@ -1,6 +1,6 @@
 README file.
 
-Play with some of the Markdown features
+Play Markdown features
 =======================================
 
 - first bullet
