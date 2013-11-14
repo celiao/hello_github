@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
     name = 'hello_github',
-    packages = ['.'],
+    packages = ['hello_github'],
     version = '0.1',
     install_requires = ['requests>=0.11.1'],
     description = 'A test file',
