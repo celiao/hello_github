@@ -1,4 +1,5 @@
 # Python files
+.pypirc
 *.pyc
 
 # Vim files
