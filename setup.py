@@ -10,7 +10,7 @@ from setuptools import setup
 #def read(fname):
 #    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-with open('README.txt') as file:
+with open('README.rst') as file:
     long_description = file.read()
 
 setup(
