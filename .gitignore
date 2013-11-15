@@ -1,6 +1,6 @@
 # Python files
-.pypirc
-*.pyc
+*.py[cod]
+*.egg-info
 
 # Vim files
 .*.swp
