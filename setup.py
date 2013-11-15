@@ -10,8 +10,14 @@ from setuptools import setup
 #def read(fname):
 #    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-with open('README.rst') as file:
-    long_description = file.read()
+#with open('README.rst') as file:
+#    long_description = file.read()
+#
+
+def read(fname):
+    with open(fname) as fp:
+        content = fp.read()
+    return content
 
 setup(
     name = 'hello_github',
@@ -23,8 +29,9 @@ setup(
     url = 'https://github.com/celiao/hello_github',   # URL to github repo
     download_url = 'https://github.com/celiao/hello_github/tarball/0.1',
     packages = ['hello_github'],
-    long_description=long_description,
+    #long_description=long_description,
     #long_description=read('README.rst'),
+    long_description=(read("README.rst")),
     install_requires = ['requests>=0.11.1'],
     classifiers = [
         "Development Status :: 3 - Alpha",
