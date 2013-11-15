@@ -48,9 +48,9 @@ Lists:
 
 3) Third item
 
-#) Another enumerated list item
+4) Another enumerated list item
 
-#) Second item  
+5) Second item  
 
 Images:
 
