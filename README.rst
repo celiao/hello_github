@@ -54,7 +54,9 @@ Lists:
 
 Images:
 
-.. image:: /path/to/image.jpg
+.. image:: https://pypip.in/d/textblob/badge.png
+    :target: https://crate.io/packages/textblob/
+    :alt: Number of PyPI downloads
 
 Named links:
 
@@ -81,7 +83,7 @@ This may also be used inline at the end of a paragraph, like so::
 
   some more literal text
 
-.. code:: python
+.. code-block:: python
 
    print("A literal block directive explicitly marked as python code")
 
